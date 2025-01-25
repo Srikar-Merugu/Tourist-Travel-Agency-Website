@@ -12,6 +12,7 @@ import Team from './pages/Team'
 import Testimonial from './pages/Testimonial'
 import Error from './pages/Error'
 import Contact from './pages/Contact'
+import Register from './pages/Register';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
         <Route path='/testimonial' element={<Testimonial/>}/>
         <Route path='/error' element={<Error/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/Register' element={<Register />} />
         </Routes>
         <Footer />
     </div>
